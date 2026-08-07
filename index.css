@@ -67,7 +67,11 @@ body {
 .glass-card:hover { border-color: var(--accent-color); transform: translateY(-5px); }
 
 /* Project Cards */
-.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:30px;
+}
 .terminal-header {
     background: #333; height: 20px; border-radius: 8px 8px 0 0;
     margin: -2rem -2rem 1rem -2rem; display: flex; align-items: center; padding-left: 10px;
